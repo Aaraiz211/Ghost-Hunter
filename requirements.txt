@@ -1,0 +1,33 @@
+# Ghost-Hunter v3.0 - Requirements
+# Install with: pip install -r requirements.txt
+
+# === Core CTI APIs ===
+requests
+OTXv2
+python-dotenv
+
+# === UPGRADE 3: Async concurrent API calls ===
+aiohttp
+
+# === UPGRADE 1: Shodan integration ===
+shodan
+
+# === Network Security ===
+python-nmap
+scapy
+
+# === System Monitoring ===
+psutil
+
+# === Scheduling ===
+schedule
+
+# === GUI ===
+customtkinter
+
+# === Windows Only ===
+pywin32
+
+# === External Tools (install separately) ===
+# Nmap:  https://nmap.org/download
+# Npcap: https://npcap.com (for Scapy on Windows)
